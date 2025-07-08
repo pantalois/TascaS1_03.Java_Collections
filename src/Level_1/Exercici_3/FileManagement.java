@@ -22,8 +22,7 @@ public class FileManagement {
 
     public static BufferedReader grabBuffer(FileReader reader) {
         try {
-            BufferedReader buffer = new BufferedReader(reader);
-            return buffer;
+            return new BufferedReader(reader);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -32,17 +31,17 @@ public class FileManagement {
 
     public static HashMap<String, String> txtToHash(BufferedReader buffer){
 
-        HashMap<String, String> myMap ls
-                = new HashMap<String, String>();
+        HashMap<String, String> myMap = new HashMap<String, String>();
         try{
             String line;
             while ((line = buffer.readLine()) != null){
-                myMap.put(line.split(" "))
+                String[] lineSeparated = line.split(" ");
+                myMap.put(lineSeparated[0], lineSeparated[1]);
             }
-
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
+        return myMap;
     }
 }
 
