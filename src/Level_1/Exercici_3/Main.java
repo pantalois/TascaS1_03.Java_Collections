@@ -25,15 +25,10 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println("Great " + name + " let´s play!!!");
 
-
-
         GameManagement game = new GameManagement();
         game.setCountry(txtToHash);
         game.setResponse();
         game.checkResponse(txtToHash);
-
-
-
 
     }
 }
