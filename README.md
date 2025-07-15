@@ -19,24 +19,18 @@ Git
 
 A Java-compatible IDE (Eclipse or IntelliJ are recommended for all exercises).
 
-Adherence to the good practices document detailed in Sprint 0 for GitHub repository deliveries.
-
-Projects can be built using Maven, Gradle, or as plain Java projects.
-
-All code and documentation should be in English.
-
 🛠️ Installation
 
-Clone this repository:
+Clone this repository: 
 
 Bash
 
-git clone https://github.com/your-username/your-repository-name.git # Replace with your actual repository URL
+git clone https://github.com/pantalois/TascaS1_03.Java_Collections.git
 Navigate to the project directory:
 
 Bash
 
-cd TascaS1_03.Java_Collections # Or your project's main directory name
+cd TascaS1_03.Java_Collections
 Open the project with your preferred IDE (Eclipse or IntelliJ IDEA recommended).
 
 ▶️ Execution
