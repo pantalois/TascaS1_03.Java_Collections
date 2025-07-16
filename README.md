@@ -26,6 +26,7 @@ Clone this repository:
 Bash
 
 git clone https://github.com/pantalois/TascaS1_03.Java_Collections.git
+
 Navigate to the project directory:
 
 Bash
