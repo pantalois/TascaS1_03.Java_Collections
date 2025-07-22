@@ -35,4 +35,5 @@ cd TascaS1_03.Java_Collections
 Open the project with your preferred IDE (Eclipse or IntelliJ IDEA recommended).
 
 ▶️ Execution
+
 Compile and run the respective Main.java files for each exercise to see the execution. Follow any on-screen instructions to interact with the programs.
