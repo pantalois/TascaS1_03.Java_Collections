@@ -1,4 +1,4 @@
-package Level_2.exercici_1.model;
+package level_2.exercici_1.model;
 
 
 public class Restaurant {

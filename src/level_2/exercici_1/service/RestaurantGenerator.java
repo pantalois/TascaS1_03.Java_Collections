@@ -1,6 +1,6 @@
-package Level_2.exercici_1.service;
+package level_2.exercici_1.service;
 
-import Level_2.exercici_1.model.Restaurant;
+import level_2.exercici_1.model.Restaurant;
 
 import java.util.ArrayList;
 import java.util.List;
